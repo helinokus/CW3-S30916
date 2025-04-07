@@ -141,6 +141,7 @@ public class AdvancedEmpDeptTests
         var emps = Database.GetEmps();
         var depts = Database.GetDepts();
         var grades = Database.GetSalgrades();
+        
 
         var result = (
             from emp in emps
